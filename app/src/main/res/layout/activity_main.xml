@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/purple_200">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gambar1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/widodari"
+                tools:ignore="ContentDescription" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/play1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="22dp"
+                    android:text="Play"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/pause1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/play1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="127dp"
+                    android:layout_marginRight="-144dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Pause"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/stop1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/pause1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="-291dp"
+                    android:text="Stop"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/gambar2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/satru"
+                tools:ignore="ContentDescription" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/play2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="22dp"
+                    android:text="Play"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/pause2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/play2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="127dp"
+                    android:layout_marginRight="-137dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Pause"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/stop2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/pause2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="-291dp"
+                    android:text="Stop"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/gambar3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/titipane_gusti"
+                tools:ignore="ContentDescription" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <Button
+                    android:id="@+id/play3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="22dp"
+                    android:text="Play"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/pause3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/play3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="127dp"
+                    android:layout_marginRight="-153dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Pause"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/stop3"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@id/pause3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="-291dp"
+                    android:text="Stop"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+
+            <VideoView
+                android:id="@+id/video1"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <Button
+                android:layout_margin="8dp"
+                android:id="@+id/plays1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Play Video" />
+
+            <VideoView
+                android:id="@+id/video2"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <Button
+                android:layout_margin="8dp"
+                android:id="@+id/plays2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Play Video" />
+
+            <VideoView
+                android:id="@+id/video3"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <Button
+                android:layout_margin="8dp"
+                android:id="@+id/plays3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Play Video" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>
